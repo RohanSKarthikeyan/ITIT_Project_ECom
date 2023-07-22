@@ -25,7 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start"
+,
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
@@ -56,5 +57,12 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RohanSKarthikeyan/dualkart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RohanSKarthikeyan/dualkart/issues"
   }
 }
